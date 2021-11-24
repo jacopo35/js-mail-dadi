@@ -12,7 +12,7 @@ const input = document.querySelector("input");
 const container = document.querySelector(".container");
 const mails = ["jaczor00@gmail.com","jaczor00@gmails.it", "thomas-23@teacher.it", "elisabetta@-24teacher.it"]
 const button = document.querySelector("button");
-const remove = document.querySelector(".remove")
+const remove = document.querySelector(".remove");
 let cond = false;
 
 remove.addEventListener("click", function () {
