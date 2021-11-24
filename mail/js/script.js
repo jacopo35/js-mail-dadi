@@ -10,16 +10,16 @@ stampa un messaggio appropriato sull’esito del controllo.
 const input = document.querySelector("input");
 
 const container = document.querySelector(".container");
-const mails = ["jaczor00@gmail.com","thomas-23@teacher.it", "elisabetta@-24teacher.it"]
+const mails = ["jaczor00@gmail.com","jaczor00@gmails.it", "thomas-23@teacher.it", "elisabetta@-24teacher.it"]
 const button = document.querySelector("button");
 const remove = document.querySelector(".remove")
 let cond = false;
 
-/*remove.addEventListener("click", function () {
+remove.addEventListener("click", function () {
     container.innerHTML = "";
     input.value = "";
 })
-*/
+
 
 button.addEventListener("click", function () {
     for (let i = 0; i < mails.length; i++) {
